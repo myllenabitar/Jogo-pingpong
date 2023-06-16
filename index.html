@@ -97,7 +97,7 @@
         this._move ()
         }
     }
-    const ball = {
+    const ball =  {
         x: field.w / 2,
         y: field.h / 2,
         r: 20,
@@ -106,8 +106,10 @@
         directionY: 1,
         _calcPosition:  function () {
             if (this.x > field.w - this.r - rightPaddle.w - gapX) {
-                if (this.y + this.r > rightPaddle.y && this.y - this.r < rightPaddle.y + rightPaddle.h
-            ){
+                if (
+                    this.y + this.r > rightPaddle.y && 
+                    this.y - this.r < rightPaddle.y + rightPaddle.h
+                ){
                 this._reverseX
             } else {
                 score.increaseHuman ()
@@ -115,8 +117,8 @@
             }
           }
 
-          if (this.x < this.r + leftPaddle.w + gapX)
-            if (
+            if (this.x < this.r + leftPaddle.w + gapX)
+                if (
                 this.y + this.r > leftPaddle.y && this.y -  this.r < leftPaddle.y + leftPaddle.h
                 ){
                     this._reverseX
@@ -130,11 +132,12 @@
             (this.y > field.h - this.r && this.directionY > 0 ) 
             ){
             this._reverseY()
-         }
+            }
+        },
         _reverseX: () => {
             this.directionX *= -1
         },
-        _reverseY: () =>  {
+        _reverseY: () => {
             this.directionY *= -1
         },
         _speedUp: () => {
@@ -158,15 +161,12 @@
         canvasCtx.beginPath()
         canvasCtx.arc(this.x, this.y, this.r, 0, 2 * Math.PI, false)
         canvasCtx.fill()
-    
-        this._calcPosition()
-        this._move()
 
-        }
+        this._calcPosition ()
+        this._move()
         }
     }
     
-
     function setup (){
         canvasEl.width = window.innerWidth
         canvasEl.height = window.innerHeight
