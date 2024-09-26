@@ -2,9 +2,6 @@
 
 <img src="https://github.com/user-attachments/assets/728b1f0e-cc11-41e7-9296-8b612cb7f75c" alt="pagina inicial do ping pong">
 
-
-
-
 <h2>Badges:</h2>
 
 
@@ -19,7 +16,6 @@ Ultima versão: junho 2023
 </h4>
 <h2>:hammer:Funcionalidades e Demonstração da Aplicação</h2>
   O jogo possui duas raquetes, uma controlada por nós outra pela "maquina", onde se a bola bater na parede de fundo, conta ponto para o adversário. A cada ponto a velocidade da bola vai aumentando.
-  [Video de demonstração do jogo funcionando](https://www.loom.com/share/7d1ab8f90dcb4e3d86ec27c72345e358?sid=6c5f6040-935e-4938-8574-3951282eb129)
   
 <h2>Acesso ao projeto</h2>
   Studio Code - Go live 
