@@ -1,26 +1,66 @@
-<h1 align="center">Jogo Ping-Pong </h1>
+# 🏓 Jogo Ping-Pong
 
-<h2>Badges:</h2>
-Ultima versão: junho 2023.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/728b1f0e-cc11-41e7-9296-8b612cb7f75c" alt="Página inicial do jogo Ping-Pong">
+</p>
 
-<h2>Descrição de Projeto</h2>
- Ping-pong projeto feito em meus estudos para entender lógica de programação. Feito em javascript puro. O jogo possui duas raquetes, uma controlada por nós outra pela "maquina", onde se a bola bater na parede de fundo, conta ponto para o adversário. A cada ponto a velocidade da bola vai aumentando.
+---
 
-<h2>Status do Projeto</h2><h4 align="center">:star: Projeto Concluído! :star:</h4>
+## 🏷️ Badges
+- **Última versão:** Junho 2023  
+- **Status:** :star: Projeto Concluído! :star:  
 
-<h2>:hammer:Funcionalidades e Demonstração da Aplicação</h2>
-<img src="https://github.com/user-attachments/assets/728b1f0e-cc11-41e7-9296-8b612cb7f75c" alt="pagina inicial do ping pong">
-  O jogo possui duas raquetes, uma controlada por nós outra pela "maquina", onde se a bola bater na parede de fundo, conta ponto para o adversário. A cada ponto a velocidade da bola vai aumentando.
-  
-<h2>Acesso ao projeto</h2>
-  Studio Code - Go live 
+---
 
-<h2> :computer: Tecnologias Utilizadas</h2>
-<h3> JavaScript</h3>
-<h3> HTML</h3>
-<h3> CSS</h3>
+## 📖 Descrição do Projeto
 
-<H2>Autores</H2>
-<h3>Myllena Bitar</h3>
-<img src="https://avatars.githubusercontent.com/u/111917539?v=4" alt="Myllena Bitar">
+Este projeto foi desenvolvido durante meus estudos para compreender melhor a lógica de programação. Trata-se de um jogo de **Ping-Pong** criado com **JavaScript puro**, onde:
 
+- Há duas raquetes: uma controlada pelo jogador e outra pela "máquina".
+- Se a bola atingir a parede de fundo, o ponto é marcado para o adversário.
+- A cada ponto marcado, a velocidade da bola aumenta, tornando o jogo mais desafiador.
+
+### 🔍 Próximos Passos
+- Possível adição de níveis de dificuldade e melhorias visuais.  
+
+---
+
+## 🚀 Funcionalidades e Demonstração
+- Controle da raquete pelo jogador.
+- Sistema de pontuação automática.
+- Aumento progressivo da dificuldade com a aceleração da bola.
+
+---
+
+## 📂 Acesso ao Projeto
+Para acessar este projeto, siga as instruções abaixo:
+
+1. Abra o projeto no **Visual Studio Code** ou outro editor de sua preferência.  
+2. Utilize a extensão **Live Server** para executar o projeto localmente.  
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**
+
+---
+
+## 👩‍💻 Autora
+
+**Myllena Bitar**  
+Desenvolvedora front-end em transição de carreira, apaixonada por tecnologia e design.
+
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/111917539?v=4" alt="Myllena Bitar" width="100px">
+</p>
+
+[![GitHub](https://img.shields.io/badge/GitHub-MyllenaBitar-blue?logo=github)](https://github.com/MyllenaBitar)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-MyllenaBitar-blue?logo=linkedin)](https://linkedin.com/in/MyllenaBitar)
+
+---
+
+## 📅 Última atualização
+Junho de 2023
